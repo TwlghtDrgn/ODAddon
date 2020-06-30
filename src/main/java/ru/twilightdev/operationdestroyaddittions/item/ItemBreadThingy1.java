@@ -1,6 +1,7 @@
 
 package ru.twilightdev.operationdestroyaddittions.item;
 
+import ru.twilightdev.operationdestroyaddittions.creativetab.TabODAdditions;
 import ru.twilightdev.operationdestroyaddittions.ElementsOperationDestroyAddittions;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -13,7 +14,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.Item;
 import net.minecraft.item.EnumAction;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 @ElementsOperationDestroyAddittions.ModElement.Tag
@@ -39,7 +39,7 @@ public class ItemBreadThingy1 extends ElementsOperationDestroyAddittions.ModElem
 			super(5, 0.7f, false);
 			setUnlocalizedName("breadthingy1");
 			setRegistryName("breadthingy1");
-			setCreativeTab(CreativeTabs.FOOD);
+			setCreativeTab(TabODAdditions.tab);
 			setMaxStackSize(3);
 		}
 

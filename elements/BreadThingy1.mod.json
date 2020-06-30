@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Бутер с колбасой",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:ODAdditions"
     },
     "stackSize": 3,
     "nutritionalValue": 5,

@@ -8,16 +8,62 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "ODAdditions",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Icon",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DrinkThingy1Drunk",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrinkThingy1",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "item.breadthingy1.name": "Бутер с колбасой"
+      "item.drinkthingy1.name": "Кола",
+      "itemGroup.tabodadditions": "OD Additions",
+      "item.breadthingy1.name": "Бутер с колбасой",
+      "item.icon.name": "Icon"
     },
     "en_us": {
-      "item.breadthingy1.name": "A sausage sandwich"
+      "item.drinkthingy1.name": "Cola",
+      "itemGroup.tabodadditions": "OD Additions",
+      "item.breadthingy1.name": "A sausage sandwich",
+      "item.icon.name": "Icon"
     }
   },
   "workspaceSettings": {
