@@ -1,0 +1,40 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "BreadThingy1",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "item.breadthingy1.name": "Бутер с колбасой"
+    },
+    "en_us": {
+      "item.breadthingy1.name": "A sausage sandwich"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "odaddittions",
+    "modName": "Operation Destroy 3 Addittions",
+    "version": "1.0.0",
+    "author": "SGCH, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "modElementsPackage": "ru.twilightdev.operationdestroyaddittions",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}
