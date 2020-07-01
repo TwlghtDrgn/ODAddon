@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "myaso_1024x1024",
+    "customModelName": "Normal",
+    "name": "Куриные консервы",
+    "creativeTab": {
+      "value": "CUSTOM:ODAdditions"
+    },
+    "stackSize": 8,
+    "nutritionalValue": 12,
+    "saturation": 1.4000000000000001,
+    "eatingSpeed": 20,
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

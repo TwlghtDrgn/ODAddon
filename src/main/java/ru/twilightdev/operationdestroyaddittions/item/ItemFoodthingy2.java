@@ -17,11 +17,11 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 @ElementsOperationDestroyAddittions.ModElement.Tag
-public class ItemBreadThingy1 extends ElementsOperationDestroyAddittions.ModElement {
-	@GameRegistry.ObjectHolder("odaddittions:foodthingy1")
+public class ItemFoodthingy2 extends ElementsOperationDestroyAddittions.ModElement {
+	@GameRegistry.ObjectHolder("odaddittions:foodthingy2")
 	public static final Item block = null;
-	public ItemBreadThingy1(ElementsOperationDestroyAddittions instance) {
-		super(instance, 1);
+	public ItemFoodthingy2(ElementsOperationDestroyAddittions instance) {
+		super(instance, 5);
 	}
 
 	@Override
@@ -32,15 +32,20 @@ public class ItemBreadThingy1 extends ElementsOperationDestroyAddittions.ModElem
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("odaddittions:foodthingy1", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("odaddittions:foodthingy2", "inventory"));
 	}
 	public static class ItemFoodCustom extends ItemFood {
 		public ItemFoodCustom() {
-			super(5, 0.7f, false);
-			setUnlocalizedName("foodthingy1");
-			setRegistryName("foodthingy1");
+			super(12, 1.4000000000000001f, true);
+			setUnlocalizedName("foodthingy2");
+			setRegistryName("foodthingy2");
 			setCreativeTab(TabODAdditions.tab);
-			setMaxStackSize(3);
+			setMaxStackSize(8);
+		}
+
+		@Override
+		public int getMaxItemUseDuration(ItemStack stack) {
+			return 20;
 		}
 
 		@Override

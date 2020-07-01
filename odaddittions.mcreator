@@ -7,7 +7,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "foodthingy1"
     },
     {
       "name": "ODAdditions",
@@ -48,21 +49,31 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Foodthingy2",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
+      "item.foodthingy2.name": "Куриные консервы",
       "item.drinkthingy1.name": "Кола",
+      "item.foodthingy1.name": "Бутер с колбасой",
       "itemGroup.tabodadditions": "OD Additions",
-      "item.breadthingy1.name": "Бутер с колбасой",
       "item.icon.name": "Icon"
     },
     "en_us": {
+      "item.foodthingy2.name": "Куриные консервы",
       "item.drinkthingy1.name": "Cola",
+      "item.foodthingy1.name": "Bread with sausage",
       "itemGroup.tabodadditions": "OD Additions",
-      "item.breadthingy1.name": "A sausage sandwich",
       "item.icon.name": "Icon"
     }
   },
