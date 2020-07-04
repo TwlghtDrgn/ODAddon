@@ -3,18 +3,18 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "kisspng-coca-cola-fizzy-drinks-diet-coke-beer-coca-cola-3d-5b2322b98181a8.9022075315290293055305",
+    "texture": "1024x1024-vert",
     "customModelName": "Normal",
-    "name": "Drink Thingy1",
+    "name": "Вода",
     "creativeTab": {
       "value": "CUSTOM:ODAdditions"
     },
     "stackSize": 8,
-    "nutritionalValue": 7,
-    "saturation": 0.3,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
     "eatingSpeed": 16,
     "forDogs": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "drink",
     "hasGlow": false,
     "onEaten": {

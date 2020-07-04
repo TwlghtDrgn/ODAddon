@@ -62,35 +62,30 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "ru_ru": {
-      "item.foodthingy2.name": "Куриные консервы",
-      "item.drinkthingy1.name": "Кола",
-      "item.foodthingy1.name": "Бутер с колбасой",
-      "itemGroup.tabodadditions": "OD Additions",
-      "item.icon.name": "Icon"
-    },
     "en_us": {
       "item.foodthingy2.name": "Куриные консервы",
-      "item.drinkthingy1.name": "Cola",
-      "item.foodthingy1.name": "Bread with sausage",
+      "item.drinkthingy1.name": "Вода",
+      "item.foodthingy1.name": "Бутер с колбасой",
       "itemGroup.tabodadditions": "OD Additions",
       "item.icon.name": "Icon"
     }
   },
   "workspaceSettings": {
-    "modid": "odaddittions",
-    "modName": "Operation Destroy 3 Addittions",
-    "version": "1.0.0",
-    "author": "SGCH, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "modid": "odadditions",
+    "modName": "Operation Destroy 3 Additions",
+    "version": "0.0.1 alpha",
+    "author": "TwlghtDrgn",
+    "websiteURL": "https://projects.twilightdev.ru/minecraft/operationdestroy",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "mqw8s",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
-    "modElementsPackage": "ru.twilightdev.operationdestroyaddittions",
+    "credits": "search engines, derpibooruOrg and BexFeatz",
+    "modElementsPackage": "ru.twilightdev.operationdestroyadditions",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202000214217
