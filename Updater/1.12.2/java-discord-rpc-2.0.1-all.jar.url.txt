@@ -1,0 +1,1 @@
+https://github.com/MinnDevelopment/java-discord-rpc/releases/download/v2.0.1/java-discord-rpc-2.0.1-all.jar
