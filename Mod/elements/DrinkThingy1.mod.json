@@ -1,0 +1,24 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "1024x1024-vert",
+    "customModelName": "Normal",
+    "name": "Вода",
+    "creativeTab": {
+      "value": "CUSTOM:ODAdditions"
+    },
+    "stackSize": 8,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 16,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "DrinkThingy1Drunk"
+    }
+  }
+}

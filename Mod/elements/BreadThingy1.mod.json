@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "5dc3cabad6aa0ec73ad12ed6",
+    "customModelName": "Normal",
+    "name": "Бутер с колбасой",
+    "creativeTab": {
+      "value": "CUSTOM:ODAdditions"
+    },
+    "stackSize": 3,
+    "nutritionalValue": 5,
+    "saturation": 0.7,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

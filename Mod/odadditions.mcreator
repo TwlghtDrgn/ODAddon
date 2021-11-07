@@ -1,0 +1,92 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "BreadThingy1",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "foodthingy1"
+    },
+    {
+      "name": "ODAdditions",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Icon",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DrinkThingy1Drunk",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrinkThingy1",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Foodthingy2",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.foodthingy2.name": "Куриные консервы",
+      "item.drinkthingy1.name": "Вода",
+      "item.foodthingy1.name": "Бутер с колбасой",
+      "itemGroup.tabodadditions": "OD Additions",
+      "item.icon.name": "Icon"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "odadditions",
+    "modName": "Operation Destroy 3 Additions",
+    "version": "0.0.1 alpha",
+    "author": "TwlghtDrgn",
+    "websiteURL": "https://projects.twilightdev.ru/minecraft/operationdestroy",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "mqw8s",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "search engines, derpibooruOrg and BexFeatz",
+    "modElementsPackage": "ru.twilightdev.operationdestroyadditions",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}
