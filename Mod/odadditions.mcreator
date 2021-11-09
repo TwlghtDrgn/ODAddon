@@ -63,9 +63,9 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.foodthingy2.name": "Куриные консервы",
-      "item.drinkthingy1.name": "Вода",
-      "item.foodthingy1.name": "Бутер с колбасой",
+      "item.foodthingy2.name": "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+      "item.drinkthingy1.name": "пїЅпїЅпїЅпїЅ",
+      "item.foodthingy1.name": "пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
       "itemGroup.tabodadditions": "OD Additions",
       "item.icon.name": "Icon"
     }
@@ -75,7 +75,7 @@
     "modName": "Operation Destroy 3 Additions",
     "version": "0.0.1 alpha",
     "author": "TwlghtDrgn",
-    "websiteURL": "https://projects.twilightdev.ru/minecraft/operationdestroy",
+    "websiteURL": "https://operationdestory.twilightdev.ru",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "mqw8s",

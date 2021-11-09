@@ -17,10 +17,10 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 @ElementsOperationDestroyAdditions.ModElement.Tag
-public class ItemBreadThingy1 extends ElementsOperationDestroyAdditions.ModElement {
-	@GameRegistry.ObjectHolder("odadditions:foodthingy1")
+public class ItemSausageSandwich extends ElementsOperationDestroyAdditions.ModElement {
+	@GameRegistry.ObjectHolder("odadditions:sausagesandwich")
 	public static final Item block = null;
-	public ItemBreadThingy1(ElementsOperationDestroyAdditions instance) {
+	public ItemSausageSandwich(ElementsOperationDestroyAdditions instance) {
 		super(instance, 1);
 	}
 
@@ -32,13 +32,13 @@ public class ItemBreadThingy1 extends ElementsOperationDestroyAdditions.ModEleme
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("odadditions:foodthingy1", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("odadditions:sausagesandwich", "inventory"));
 	}
 	public static class ItemFoodCustom extends ItemFood {
 		public ItemFoodCustom() {
 			super(5, 0.7f, false);
-			setUnlocalizedName("foodthingy1");
-			setRegistryName("foodthingy1");
+			setUnlocalizedName("sausagesandwich");
+			setRegistryName("sausagesandwich");
 			setCreativeTab(TabODAdditions.tab);
 			setMaxStackSize(3);
 		}
