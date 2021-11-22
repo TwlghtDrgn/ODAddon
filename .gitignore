@@ -1,7 +1,6 @@
 # Gradle build system ignores
 Mod/.gradle/
 Mod/build/
-Mod/gradle
 
 # Other IDE related folders
 Mod/.idea/
