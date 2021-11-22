@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "odaddon",
+  "name": "Operation Destory III Add-On",
+  "description": "It's in the mod name",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://operationdestroy.twilightdev.ru",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["TwlghtDrgn"],
+  "credits": "At least 5 years of map building (as for 22.11.21)",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
