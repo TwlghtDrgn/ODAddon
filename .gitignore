@@ -5,18 +5,8 @@ Mod/build/
 # Other IDE related folders
 Mod/.idea/
 Mod/.settings/
+Mod/eclipse
+Mod/run
 
-# MCreator workspace
-Mod/.mcreator/
-
-# Minecraft client/server files
-Mod/run/
-
-# MCreator generator ignores
-Mod/src/main/resources/assets/*/models/custom
-Mod/src/main/resources/assets/*/models/item
-Mod/src/main/resources/assets/*/textures/blocks
-Mod/src/main/resources/assets/*/textures/items
-Mod/src/main/resources/assets/*/textures/models/armor
-Mod/src/main/resources/assets/*/textures/*.png
-Mod/src/main/resources/assets/*/sounds
+# Files from Forge MDK
+Mod/forge*changelog.txt
