@@ -6,8 +6,8 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = odaddon.MODID, name = odaddon.NAME, version = odaddon.VERSION)
-public class odaddon
+@Mod(modid = ODAddon.MODID, name = ODAddon.NAME, version = ODAddon.VERSION)
+public class ODAddon
 {
     public static final String MODID = "odaddon";
     public static final String NAME = "Operation Destory III Add-On";
