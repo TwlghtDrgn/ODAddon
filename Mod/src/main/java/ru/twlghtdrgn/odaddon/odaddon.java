@@ -2,6 +2,8 @@ package ru.twlghtdrgn.odaddon;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -18,6 +20,13 @@ public class ODAddon
     @Instance(value=ODAddon.MODID)
     public static ODAddon instance;
 
+    public static final CreativeTabs OD = new CreativeTabs("ODAddon") {
+        @Override
+        public ItemStack getTabIconItem() {
+            return new ItemStack(BlockRegister.OD_Block);
+        }
+    };
+
     public static Logger logger;
 
     @EventHandler
@@ -27,6 +36,7 @@ public class ODAddon
         logger.info("Operation Destory III Add-On. Made by TwlghtDrgn for map w\\ same name");
 
         ItemRegister.register();
+        BlockRegister.registerBlocks();
     }
 
     @EventHandler
@@ -35,6 +45,7 @@ public class ODAddon
         logger.info("I'm loading, you know");
 
         ItemRegister.registerRender();
+        BlockRegister.registerBlocksRender();
     }
 
     @EventHandler

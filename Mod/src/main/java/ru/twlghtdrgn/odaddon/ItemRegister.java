@@ -10,7 +10,7 @@ import ru.twlghtdrgn.odaddon.item.*;
 
 public class ItemRegister {
 
-    public static Item sandwich = new ItemSandwich("itemSandwich");
+    public static Item sandwich = new ItemSandwich("sandwich");
 
     public static void register() {
         setRegister(sandwich);

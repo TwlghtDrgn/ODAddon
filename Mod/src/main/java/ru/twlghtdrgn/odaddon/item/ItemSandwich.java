@@ -5,9 +5,9 @@ import net.minecraft.item.Item;
 
 public class ItemSandwich extends Item {
 
-    public ItemSandwich(String string) {
-        this.setUnlocalizedName(string);
-        this.setRegistryName(string);
+    public ItemSandwich(String name) {
+        this.setUnlocalizedName(name);
+        this.setRegistryName(name);
         this.setMaxStackSize(16);
         this.setCreativeTab(CreativeTabs.FOOD);
         this.setHasSubtypes(false);

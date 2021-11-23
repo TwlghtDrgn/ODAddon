@@ -1,1 +1,4 @@
-item.itemSandwich = "Sandwich"
+itemGroup.ODAddon = Мод-аддон для Operation Destroy III
+
+item.sandwich.name = Сэндвич
+tile.odblock.name = Operation Destroy III-Блок
