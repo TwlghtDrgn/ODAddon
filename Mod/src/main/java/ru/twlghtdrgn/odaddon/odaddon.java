@@ -1,9 +1,12 @@
 package ru.twlghtdrgn.odaddon;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.Mod.Instance;
+
 import org.apache.logging.log4j.Logger;
 
 @Mod(modid = ODAddon.MODID, name = ODAddon.NAME, version = ODAddon.VERSION)
@@ -12,6 +15,11 @@ public class ODAddon
     public static final String MODID = "odaddon";
     public static final String NAME = "Operation Destory III Add-On";
     public static final String VERSION = "0.0.1";
+
+    @Instance(value=ODAddon.MODID)
+    public static ODAddon instance;
+
+    public static Item foodItem;
 
     public static Logger logger;
 
