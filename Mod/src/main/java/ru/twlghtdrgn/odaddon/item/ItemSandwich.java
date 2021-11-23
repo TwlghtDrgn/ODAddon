@@ -4,11 +4,12 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class ItemSandwich extends Item {
-    public static final String NAME = "susFood";
 
-    public ItemSandwich() {
-        setUnlocalizedName(NAME);
-        setMaxStackSize(16);
-        setCreativeTab(CreativeTabs.FOOD);
+    public ItemSandwich(String string) {
+        this.setUnlocalizedName(string);
+        this.setRegistryName(string);
+        this.setMaxStackSize(16);
+        this.setCreativeTab(CreativeTabs.FOOD);
+        this.setHasSubtypes(false);
     }
 }

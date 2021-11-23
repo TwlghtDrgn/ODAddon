@@ -2,7 +2,6 @@ package ru.twlghtdrgn.odaddon;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -19,8 +18,6 @@ public class ODAddon
     @Instance(value=ODAddon.MODID)
     public static ODAddon instance;
 
-    public static Item foodItem;
-
     public static Logger logger;
 
     @EventHandler
@@ -28,12 +25,16 @@ public class ODAddon
     {
         logger = event.getModLog();
         logger.info("Operation Destory III Add-On. Made by TwlghtDrgn for map w\\ same name");
+
+        ItemRegister.register();
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
         logger.info("I'm loading, you know");
+
+        ItemRegister.registerRender();
     }
 
     @EventHandler

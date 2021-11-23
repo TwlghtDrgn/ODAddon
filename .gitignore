@@ -11,3 +11,4 @@ Mod/bin/
 
 # Files from Forge MDK
 Mod/forge*changelog.txt
+Mod/.classpath
