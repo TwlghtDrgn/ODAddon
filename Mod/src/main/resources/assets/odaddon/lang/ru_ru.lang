@@ -1,4 +1,9 @@
-itemGroup.ODAddon = Мод-аддон для Operation Destroy III
+itemGroup.ODAddon=Мод-аддон для Operation Destroy III
 
-item.sandwich.name = Сэндвич
-tile.odblock.name = Operation Destroy III-Блок
+// Предметы
+item.spam.name=Спам
+item.screwdriver.name=Отвертка
+
+// Блоки
+tile.odblock.name=Operation Destroy III-Блок
+tile.cooked_pork_block.name=Блок жаренной свинины

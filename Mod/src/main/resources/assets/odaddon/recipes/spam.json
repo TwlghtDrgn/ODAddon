@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IWI",
+        "IPI",
+        "III"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "P": {
+            "item": "odaddon:cooked_pork_block"
+        },
+        "W": {
+            "item": "minecraft:heavy_weighted_pressure_plate"
+        }
+    },
+    "result": {
+        "item": "odaddon:spam"
+    }
+}

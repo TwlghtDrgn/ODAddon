@@ -7,18 +7,22 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import ru.twlghtdrgn.odaddon.item.*;
+import ru.twlghtdrgn.odaddon.food.*;
 
 public class ItemRegister {
 
-    public static Item sandwich = new ItemSandwich("sandwich");
+    public static Item screwdriver = new ItemScrewdriver();
+    public static Item spam = new ItemSpam(20, 40.0F, true);
 
     public static void register() {
-        setRegister(sandwich);
+        setRegister(screwdriver);
+        setRegister(spam);
     }
 
     @SideOnly(Side.CLIENT)
     public static void registerRender() {
-        setRender(sandwich);
+        setRender(screwdriver);
+        setRender(spam);
     }
 
     private static void setRegister(Item item) {

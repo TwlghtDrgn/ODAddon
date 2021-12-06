@@ -1,4 +1,9 @@
-itemGroup.ODAddon = Addon mod for Operation Destroy III
+itemGroup.ODAddon=Addon mod for Operation Destroy III
 
-item.sandwich.name = Sandwich
-tile.odblock.name = Operation Destroy III Block
+// Items
+item.spam.name=Spam
+item.screwdriver.name=Screwdriver
+
+// Blocks
+tile.odblock.name=Operation Destroy III Block
+tile.cooked_pork_block.name=Block of cooked porkchop

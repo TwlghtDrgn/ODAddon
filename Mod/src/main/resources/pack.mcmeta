@@ -1,7 +1,6 @@
 {
     "pack": {
         "description": "OD3 Add-On Resources",
-        "pack_format": 3,
-        "_comment": "All resources, including language files, should be lowercase (eg: en_us.lang)."
+        "pack_format": 3
     }
 }

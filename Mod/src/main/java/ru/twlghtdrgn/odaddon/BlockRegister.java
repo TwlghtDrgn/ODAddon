@@ -12,15 +12,18 @@ import ru.twlghtdrgn.odaddon.block.*;
 
 public class BlockRegister {
     
-    public static Block OD_Block = new ODBlock("odblock");
+    public static Block OD_Block = new ODBlock();
+    public static Block Cooked_Pork_Block = new CookedPorkBlock();
 
     public static void registerBlocks() {
         setRegister(OD_Block);
+        setRegister(Cooked_Pork_Block);
     }
 
     @SideOnly(Side.CLIENT)
     public static void registerBlocksRender() {
         setRender(OD_Block);
+        setRender(Cooked_Pork_Block);
     }
 
     private static void setRegister(Block block) {

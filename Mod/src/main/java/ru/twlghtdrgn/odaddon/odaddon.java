@@ -7,7 +7,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
-
 import org.apache.logging.log4j.Logger;
 
 @Mod(modid = ODAddon.MODID, name = ODAddon.NAME, version = ODAddon.VERSION)
