@@ -1,4 +1,4 @@
-# Operation Destory III - репозиторий
+# Operation Destroy III - репозиторий
 Оригинальный репозиторий проекта карты Minecraft для версии 1.12.2
 
 Состав: 
