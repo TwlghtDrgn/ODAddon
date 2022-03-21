@@ -8,6 +8,7 @@ Mod/.settings/
 Mod/eclipse
 Mod/run
 Mod/bin/
+.vscode
 
 # Files from Forge MDK
 Mod/forge*changelog.txt
