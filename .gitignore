@@ -1,15 +1,15 @@
 # Gradle build system ignores
-Mod/.gradle/
-Mod/build/
+.gradle/
+build/
 
 # Other IDE related folders
-Mod/.idea/
-Mod/.settings/
-Mod/eclipse
-Mod/run
-Mod/bin/
+.idea/
+.settings/
+eclipse
+run
+bin/
 .vscode
 
 # Files from Forge MDK
-Mod/forge*changelog.txt
-Mod/.classpath
+forge*changelog.txt
+.classpath
