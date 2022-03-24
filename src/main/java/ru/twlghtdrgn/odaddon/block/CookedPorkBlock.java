@@ -6,7 +6,7 @@ import ru.twlghtdrgn.odaddon.ODAddon;
 
 public class CookedPorkBlock extends Block {
     public CookedPorkBlock() {
-        super(Material.SPONGE);
+        super(Material.CAKE);
         this.setRegistryName("cooked_pork_block");
         this.setUnlocalizedName("cooked_pork_block");
         this.setCreativeTab(ODAddon.OD);

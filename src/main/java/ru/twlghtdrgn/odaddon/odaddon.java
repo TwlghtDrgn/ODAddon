@@ -22,7 +22,7 @@ public class ODAddon
     public static final CreativeTabs OD = new CreativeTabs("ODAddon") {
         @Override
         public ItemStack getTabIconItem() {
-            return new ItemStack(BlockRegister.OD_Block);
+            return new ItemStack(BlockRegister.odblock);
         }
     };
 
@@ -33,23 +33,29 @@ public class ODAddon
     {
         logger = event.getModLog();
         logger.info("Operation Destory III Add-On. Made by TwlghtDrgn for map w\\ same name");
+        logger.info("Loading blocks and items NOW!");
+
 
         ItemRegister.register();
         BlockRegister.registerBlocks();
+
+        logger.info("Seems blocks and items loaded. Great!");
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        logger.info("I'm loading, you know");
+        logger.info("Loading textures...");
 
         ItemRegister.registerRender();
         BlockRegister.registerBlocksRender();
+
+        logger.info("Textures loaded.");
     }
 
     @EventHandler
     public void postInit(FMLInitializationEvent event)
     {
-        logger.info("Loaded successfuly. Finishing soon");
+        logger.info("Loaded successfuly. That means Minecraft starts soon!");
     }
 }
