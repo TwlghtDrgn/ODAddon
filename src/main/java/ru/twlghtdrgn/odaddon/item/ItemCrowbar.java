@@ -3,11 +3,11 @@ package ru.twlghtdrgn.odaddon.item;
 import net.minecraft.item.Item;
 import ru.twlghtdrgn.odaddon.ODAddon;
 
-public class ItemScrewdriver extends Item {
+public class ItemCrowbar extends Item {
 
-    public ItemScrewdriver() {
-        this.setUnlocalizedName("screwdriver");
-        this.setRegistryName("screwdriver");
+    public ItemCrowbar() {
+        this.setUnlocalizedName("crowbar");
+        this.setRegistryName("crowbar");
         this.setMaxStackSize(1);
         this.setCreativeTab(ODAddon.OD);
         this.setHasSubtypes(false);

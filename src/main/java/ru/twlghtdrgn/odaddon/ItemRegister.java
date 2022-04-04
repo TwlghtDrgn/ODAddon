@@ -11,11 +11,16 @@ import ru.twlghtdrgn.odaddon.food.*;
 
 public class ItemRegister {
 
+    //Items
     public static Item screwdriver = new ItemScrewdriver();
+    public static Item crowbar = new ItemCrowbar();
+
+    //Food
     public static Item spam = new ItemSpam(20, 40.0F, true);
 
     public static void register() {
         setRegister(screwdriver);
+        setRegister(crowbar);
         setRegister(spam);
     }
 
