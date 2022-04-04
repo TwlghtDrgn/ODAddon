@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.0.1'
+version = '0.0.1-dev'
 group = 'ru.twlghtdrgn.odaddon' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'ODAddon'
 
@@ -79,7 +79,8 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
     
-    compile 'net.dv8tion:JDA:5.0.0-alpha.9'
+    // JDA module
+    // compile 'net.dv8tion:JDA:5.0.0-alpha.9'
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..

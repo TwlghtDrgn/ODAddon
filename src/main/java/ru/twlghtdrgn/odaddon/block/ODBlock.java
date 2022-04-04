@@ -5,7 +5,7 @@ import net.minecraft.block.material.Material;
 
 public class ODBlock extends Block {
     public ODBlock() {
-        super(Material.GLASS);
+        super(Material.AIR);
         this.setRegistryName("odblock");
         this.setUnlocalizedName("odblock");
     }

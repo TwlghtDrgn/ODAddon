@@ -14,7 +14,7 @@ public class ODAddon
 {
     public static final String MODID = "odaddon";
     public static final String NAME = "Operation Destory III Add-On";
-    public static final String VERSION = "0.0.1";
+    public static final String VERSION = "DEV BUILD";
 
     @Instance(value=ODAddon.MODID)
     public static ODAddon instance;
