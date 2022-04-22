@@ -33,8 +33,7 @@ public class ODAddon
     {
         logger = event.getModLog();
         logger.info("Operation Destory III Add-On. Made by TwlghtDrgn for map w\\ same name");
-        logger.info("Loading blocks and items NOW!");
-
+        logger.info("Loading blocks and items...");
 
         ItemRegister.register();
         BlockRegister.registerBlocks();
