@@ -1,6 +1,8 @@
 # Operation Destroy (Any) - Addon
 Мод, который добавляет недостающие детали к проекту
 
+[![Build Status](https://ci.twilightdev.ru/buildStatus/icon?job=ODAddon)](https://ci.twilightdev.ru/job/ODAddon/)
+
 ---
 Планируется:
 - [ ] Механики
